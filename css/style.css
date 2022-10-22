@@ -1,9 +1,9 @@
 /* variables de colores y fuentes */
 :root{
     --fondo:#fff;
-    --encabezado:rgb(11, 52, 122);
+    --encabezado:rgb(2, 10, 22);
     --enlace:rgb(86, 5, 5);
-    --enlaceSobre:rgb(197, 192, 192);
+    --enlaceSobre:rgb(115, 28, 6);
     --piepagina:#000;
     /* fuente */
     --titulos:'Roboto',sans-serif;
@@ -22,4 +22,29 @@ header {
     width: 100%;
     background-color:var(--encabezado);
     position: fixed;
+    padding: 8px 0;
+}
+
+header img{
+    width: 200px;
+}
+
+header nav{
+    float: right;
+    margin-top:8px;
+}
+
+header nav a{
+    color: var(--enlace);
+    background-color:rgb(245, 238, 238);
+    text-decoration: none;
+    border-radius:3px;
+    font-size: 18px;
+    margin-left: 6px;
+    padding:4px;
+}
+
+header nav a:hover{
+    color: var(--enlaceSobre);
+    
 }
