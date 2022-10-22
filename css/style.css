@@ -1,0 +1,25 @@
+/* variables de colores y fuentes */
+:root{
+    --fondo:#fff;
+    --encabezado:rgb(11, 52, 122);
+    --enlace:rgb(86, 5, 5);
+    --enlaceSobre:rgb(197, 192, 192);
+    --piepagina:#000;
+    /* fuente */
+    --titulos:'Roboto',sans-serif;
+
+}
+
+/* la clase en css se representa por un (.) */
+.home-wrapper{
+    background-image: url('../images/background.jpg');
+}
+
+/* selectores de etiqueta en css, se nombre la etiqueta
+por ejemplo header sin los simbolos de menor o mayor que */
+
+header {
+    width: 100%;
+    background-color:var(--encabezado);
+    position: fixed;
+}
